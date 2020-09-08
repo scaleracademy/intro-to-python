@@ -12,4 +12,4 @@ To discuss any doubts or questions after today's class with the community, join 
 
 # Lectures
 - Lecture 1: [[Notes]](/lecture1.md) [[Video]](https://www.youtube.com/watch?v=OrzXiZKtudA) - Installing Python, REPL, using Python as a calculator, basic data types, input and output
-- Lecture 2: coming tomorrow.
+- Lecture 2: [[Notes]](/lecture2.md)
