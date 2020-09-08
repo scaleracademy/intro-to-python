@@ -7,9 +7,9 @@ Objectives:
 - Create a Todo application website
 - Deploy on heroku
 
-To discuss any doubts or questions after today's class with the community, join Scaler Club :  https://chat.scaler.com/signup_user_complete/?id=c9os5g9kobr4jqmtgadgkbgafa
+To discuss any doubts or questions after today's class with the community, join Scaler Club:  https://chat.scaler.com/signup_user_complete/?id=c9os5g9kobr4jqmtgadgkbgafa
 
 
 # Lectures
 - Lecture 1: [[Notes]](/lecture1.md) [[Video]](https://www.youtube.com/watch?v=OrzXiZKtudA) - Installing Python, REPL, using Python as a calculator, basic data types, input and output
-- Lecture 2: [[Notes]](/lecture2.md)
+- Lecture 2: [[Notes]](/lecture2.md) [[Video]](https://www.youtube.com/watch?v=Q7nvvSlWem4) - Operators, Basic Control Flow - Conditionals, Loops and Functions
