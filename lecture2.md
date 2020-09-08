@@ -382,8 +382,103 @@ for multiple in range(1, 11):
 - break
 - continue
 
+### Why break statement?
+- Let’s take a real scenario where we can use break statements.
+- Let us consider a repetitive task to send email to 100 employees. 
+- Suppose after sending 10 emails, suddenly internet disconnected. What action you will perform at that time? 
+- You can either attempt a try to send rest 90 emails, which will result in error.
+Alternatively, you can terminate the mailing process with a warning or error message.
+- Definitely, it is better to postpone or terminate the mailing process for now than sending mails further that will result in error.
+
+```py
+# break and continue allow to control the flow of the loops
+
+# using break, we can go outside the loop
+names = ["Scaler", "Interviewbit", "scaler", "interviewbit"]
+for name in names:
+  print(name)
+  if (name == "Scaler"):
+    break
+```
+
+```py
+# using continue, we can skip a particular iteration, and go to next one
+for name in names:
+  if (name == "Scaler"):
+    continue
+  print(name)
+```
+
+```py
+# using break in nested loops
+# break in the inner loop just breaks out of the inner loop
+# outer loop will continue to run
+target = 'i'
+for name in names:
+  print(f"{name} in outer loop")
+  for char in name:
+    if char == target:
+      print(f"Found {name} with letter: {target}")
+      print("Breaking out of the inner loop")
+      break
+```
+
+```py
+# Exercise:
+# Write a program to check if a given number is prime, use the break statement wisely!
+```
+
 ## Functions
-- Defining functions
-- Calling functions
-- Function scope
-- Recursive functions
+
+### What is a function?
+- Consider it to be a black box that takes serveral inputs, does some processing and can return some output
+- To write a program, either we can have a single big piece of code file which will become difficult to maintain, so we use functions and break our code into small tasks, i.e. functions
+
+### Why functions?
+- Reusability
+- Abstraction
+    - To use a function, you only need to know its name and the arguments it accepts.
+    - You need not know how it works internallly.
+- Modular design
+- Maintenance
+- Debugging
+    - It becomes a lot easier if we know the exact function where the code is breaking!
+
+### Defining and calling functions 
+
+```py
+def print_function():
+  print("This function just prints to the screen!")
+  
+x = print_function() # Function which does not return anything, returns 'None'
+print(x)
+'''
+Output:
+This function just prints to the screen!
+None
+'''
+```
+
+```py
+def sum_of_two(num_1, num_2):
+  return num_1 + num_2
+
+res = sum_of_two(1, 100)
+print(res)
+```
+
+### Functions with default arguments
+
+```py
+# functions can accept arguments with default values (called as keyword arguments)
+def greetings(name="Scaler"):
+  print(f"Hello from {name}")
+
+greetings()
+greetings("InterviewBit")
+```
+
+```py
+# Exercise, complete the following function that returns maximum of three numbers
+# def max_of_three(num_1, num_2, num_3)
+```
