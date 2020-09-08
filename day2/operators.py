@@ -17,3 +17,47 @@ print(res_two) # True
 
 user_logged_in = True
 print(not user_logged_in)
+
+# the integer 0 is always False, and every other number, is True
+x = bool(0)
+y = bool(-1)
+z = bool(1)
+print(x, y, z) # False True True
+
+# strings are compared lexicographically, i.e. by ASCII value of the characters
+# you can remeber that capital letters come before lower case ones
+print("Scaler" > "Interviewbit") # True as 'S' comes after 'I'
+print('s' > 'S') # True
+print("Scaler" == "Interviewbit") # False
+
+# Identity comparisons, is keyword is used
+# if the compared objects are stored in the same memory location, returns true
+a = "Scaler"
+b = "Scaler"
+print(a is b)
+print(id(a))
+print(id(b))
+
+# bitwise operators
+a = 3
+b = 5
+c = a & b
+'''
+Bitwise AND (&)
+In result, bit is set at those positions where it is set in both the operands
+  011
+& 101
+  ---
+  001
+  ---
+'''
+print(c)
+
+# Exercise
+a = False
+b = True
+c = True
+
+print (a or b and c)
+
+# Read about operator precedences
