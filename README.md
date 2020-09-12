@@ -14,3 +14,5 @@ To discuss any doubts or questions after today's class with the community, join 
 - Lecture 1: [[Notes]](/lecture1.md) [[Video]](https://www.youtube.com/watch?v=OrzXiZKtudA) - Installing Python, REPL, using Python as a calculator, basic data types, input and output
 - Lecture 2: [[Notes]](/lecture2.md) [[Video]](https://www.youtube.com/watch?v=Q7nvvSlWem4) - Operators, Basic Control Flow - Conditionals, Loops and Functions
 - Lecture 3: [[Notes]](/lecture3.md) [[Video]](https://www.youtube.com/watch?v=tmxCgqNSj88) - Basic Data Structures and Containers: Lists, Tuples, Sets, Dictionaries
+- Lecture 4: [[Notes]](/lecture4.md) [[Video]](https://www.youtube.com/watch?v=NsOzuuLlR08) - Organizing Code & Dependency Management
+- Lecture 5: [[Notes]](/lecture5.md) [[Video]]() - File I/O, reading and writing text, csv and json files
