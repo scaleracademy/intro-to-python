@@ -23,11 +23,14 @@ source venv/bin/activate
 
 ## Commands
 
-1. `todo lists`
-2. `todo use list`
-3. `item add item_names`
-4. `item list`
-5. `item edit item_id new_item_name`
-6. `item remove item_id`
-7. `item complete item_id`
-8. `item incomplete item_id`
+1. `list show`
+2. `list use list_name`
+3. `list create list_name`
+3. `todo add item_names`
+4. `todo all`
+5. `todo edit item_id new_item_name`
+6. `todo remove item_id`
+7. `todo complete item_id`
+8. `todo incomplete item_id`
+9. `help`
+10. `quit`
