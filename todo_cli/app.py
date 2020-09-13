@@ -46,7 +46,8 @@ def main():
       else:
         print('Successfuly chosen this list...')
         current_list = file_name
-    elif (command[0] == 'todo'):
+    elif (command.split()[0] == 'todo'):
+      # todo type of command
       command_args.insert(0, current_list)
       commands_dict[command_name](command_args)
     else:
