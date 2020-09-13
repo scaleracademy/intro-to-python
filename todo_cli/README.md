@@ -34,3 +34,20 @@ source venv/bin/activate
 8. `todo incomplete item_id`
 9. `help`
 10. `quit`
+
+## JSON Files
+
+### lists.json
+
+- stores a list of todo lists
+- a todo list is a dict having title and created_at field
+
+OR
+
+- stores a dict of todo lists having title as key and file name and time of creation as nested dict
+
+### list.json
+
+- list refers to the todo list name
+- stores a list of todo item
+- each todo item is a dict having title, created_at, and completed field.

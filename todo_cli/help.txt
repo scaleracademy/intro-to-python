@@ -1,0 +1,12 @@
+The following commands are available:
+1. list show => shows all the lists available
+2. list use list_name => use a given list
+3. list create list_name => create a list with given name
+3. todo add item_names => add a todo item to the selected list
+4. todo all => show all the todo items in the chosen list
+5. todo edit item_id new_item_name => edit the todo item providing the id and new title
+6. todo remove item_id => remove a todo item
+7. todo complete item_id => mark a todo item as completed
+8. todo incomplete item_id => mark a todo item as incomplete
+9. help => prints this...
+10. quit => exit the application
