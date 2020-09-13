@@ -16,3 +16,4 @@ To discuss any doubts or questions after today's class with the community, join 
 - Lecture 3: [[Notes]](/lecture3.md) [[Video]](https://www.youtube.com/watch?v=tmxCgqNSj88) - Basic Data Structures and Containers: Lists, Tuples, Sets, Dictionaries
 - Lecture 4: [[Notes]](/lecture4.md) [[Video]](https://www.youtube.com/watch?v=NsOzuuLlR08) - Organizing Code & Dependency Management
 - Lecture 5: [[Notes]](/lecture5.md) [[Video]](https://www.youtube.com/watch?v=kj61srFJ9fY) - File I/O, reading and writing text, csv and json files
+- Lecture 6: [[Notes]](todo_cli/README.md) [[Video]](https://www.youtube.com/watch?v=tHDoTDpfRE4) - Building a Todo CLI App with Python
