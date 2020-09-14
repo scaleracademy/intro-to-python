@@ -1,7 +1,7 @@
 # Introduction to Python
 
 Objectives:
-- Introduce python from the absolute basics. 
+- Introduce python from the absolute basics.
 - Create a simple Todo application for the commandline
 - Introduce Django
 - Create a Todo application website
@@ -17,3 +17,4 @@ To discuss any doubts or questions after today's class with the community, join 
 - Lecture 4: [[Notes]](/lecture4.md) [[Video]](https://www.youtube.com/watch?v=NsOzuuLlR08) - Organizing Code & Dependency Management
 - Lecture 5: [[Notes]](/lecture5.md) [[Video]](https://www.youtube.com/watch?v=kj61srFJ9fY) - File I/O, reading and writing text, csv and json files
 - Lecture 6: [[Notes]](todo_cli/README.md) [[Video]](https://www.youtube.com/watch?v=tHDoTDpfRE4) - Building a Todo CLI App with Python
+- Lecture 7: [[Notes]](/lecture7.md) [[Video]](https://www.youtube.com/watch?v=G4C3KYYQV8k) - Advanced Python
